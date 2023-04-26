@@ -103,28 +103,28 @@ document.querySelector("#search-btn").onclick = () => {
 let addBtn = document.querySelectorAll(".add");
 let products = [{
         name: "sofa",
-        img: "/images/sofa3.png",
+        img: "./images/sofa3.png",
         price: 110.99,
         inCart: 0
 
     },
     {
         name: "chair",
-        img: "/images/chaise1.jpg",
+        img: "./images/chaise1.jpg",
         price: 80.99,
         inCart: 0
 
     },
     {
         name: "bed",
-        img: "/images/bed2.jpg",
+        img: "./images/bed2.jpg",
         price: 150.99,
         inCart: 0
 
     },
     {
         name: "decoration",
-        img: "/images/decor1.jpg",
+        img: "./images/decor1.jpg",
         price: 90.99,
         inCart: 0
     }
