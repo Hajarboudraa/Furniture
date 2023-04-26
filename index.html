@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- <div class="container">
+        <div class="text">
+            <h1>Loading...</h1>
+        </div>
+        <div class="loading">
+            <div class="line-box">
+                <div class="line"></div>
+            </div>
+        </div>
+    </div> -->
+    <a href="#" class="scroll-top"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
+    <div class="header">
+        <div class="container">
+            <h2>Furn</h2>
+            <ul class="menu active">
+                <li><a href="#home">home</a></li>
+                <li><a href="#product">Products</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+            <div class="icons">
+                <div class="fas fa-search" id="search-btn"></div>
+                <div class="fas fa-shopping-cart" id="cart-btn">
+                    <p id="count">0</p>
+                </div>
+                <div class="fas fa-bars" id="menu-btn"></div>
+            </div>
+            <div class="search-form open">
+                <input type="search" name="" id="search-box" placeholder="search here...">
+                <label for="search-box" class="fas fa-search" id="lab"></label>
+            </div>
+            <div class="cart-item-container active">
+                <div class="side-bar">
+                    <div class="head">
+                        <p>My Cart</p>
+                    </div>
+                    <div id="cartitem">
+
+                    </div>
+                    <button onClick="emptyCart()" id="btnEmpty">Clear Cart</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="landing" id="home">
+        <div class="container">
+            <div class="main">
+                <h2>renovate your home</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quasi aperiam aut. Explicabo aliquid neque reiciendis fugiat assumenda quas nobis</p>
+                <button style="border-color:darkblue;border-radius:5px;">show more</button>
+            </div>
+            <div class="home-img">
+                <img src="images/imgla.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!---product-->
+    <div class="products" id="product">
+        <div class="description">
+            <h2>Products</h2>
+            <p>Discover the best</p>
+        </div>
+        <div class="container">
+
+            <div class="box js-scroll slide-left">
+                <div class="imgs">
+                    <img src="images/sofa3.png">
+                </div>
+                <h3 class="prod-title">Sofa</h3>
+                <div class="price">$110.99 <span>150.99</span></div>
+                <button class="add">add to cart</button>
+
+            </div>
+            <div class="box js-scroll slide-right">
+                <div class="imgs">
+                    <img src="images/chaise1.jpg">
+
+                </div>
+                <h3 class="prod-title">Chair</h3>
+                <div class="price">$80.99 <span>100.99</span></div>
+                <button class="add">add to cart</button>
+            </div>
+            <div class="box js-scroll slide-left">
+                <div class="imgs">
+                    <img src="images/bed2.jpg">
+
+                </div>
+                <h3 class="prod-title">Bed</h3>
+                <div class="price">$150.99 <span>209.99</span></div>
+                <button class="add">add to cart</button>
+            </div>
+            <div class="box js-scroll slide-right">
+                <div class="imgs">
+                    <img src="images/decor1.jpg">
+
+                </div>
+                <h3 class="prod-title">Decoration</h3>
+                <div class="price">$9.99 <span>12.99</span></div>
+                <button class="add">add to cart</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="services" id="service">
+        <h2 class="main-title">Services</h2>
+        <p>don't be busy,be productive</p>
+
+        <div class="container ">
+            <div class="box js-scroll fade-in-bottom">
+                <i class="fas fa-truck-fast fa-4x"></i>
+                <h3>Fast Delivery</h3>
+                <div class="rate">
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                </div>
+                <div class="info">
+                    <a href="#">Details</a>
+                </div>
+            </div>
+            <div class="box js-scroll slide-left">
+                <i class="fa fa-truck-moving fa-4x"></i>
+                <h3>Free Return</h3>
+                <div class="rate">
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                </div>
+                <div class="info">
+                    <a href="#">Details</a>
+                </div>
+            </div>
+            <div class="box js-scroll fade-in-bottom">
+                <i class="fa fa-clock-rotate-left fa-4x"></i>
+                <h3>24/support</h3>
+                <div class="rate">
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                </div>
+                <div class="info">
+                    <a href="#">Details</a>
+                </div>
+            </div>
+            <div class="box js-scroll slide-right">
+                <i class="fa fa-percent fa-4x"></i>
+                <h3>Discount</h3>
+                <div class="rate">
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                    <i class="filled fas fa-star"></i>
+                </div>
+                <div class="info">
+                    <a href="#">Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Gallery -->
+    <div class="gallery" id="gallery">
+        <h2 class="main-title">Gallery</h2>
+        <div class="container">
+            <div class="box js-scroll slide-left">
+                <div class="image">
+                    <img src="images/chaise2.jpg" alt="Chair" />
+                </div>
+            </div>
+            <div class="box js-scroll fade-in-bottom">
+                <div class="image">
+                    <img src="images/sofa2.jpg" alt="Sofa" />
+                </div>
+            </div>
+            <div class="box js-scroll slide-right">
+                <div class="image">
+                    <img src="images/chaise4.jpg" alt="Chair" />
+                </div>
+            </div>
+            <div class="box js-scroll slide-left">
+                <div class="image">
+                    <img src="images/bed.jpg" alt="Bed" />
+                </div>
+            </div>
+            <div class="box js-scroll fade-in-bottom">
+                <div class="image">
+                    <img src="images/chaise5.jpg" alt="Chair" />
+                </div>
+            </div>
+            <div class="box slide-right">
+                <div class="image">
+                    <img src="images/sofa.jpg" alt="Sofa" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <p>
+        <span id="scroll-count">0</span> times
+    </p>
+    <p>
+        <span id="throttle-count">0</span> times
+    </p>
+    <!-- End Gallery -->
+    <!-- Start Footer -->
+    <div class="footer" id="contact">
+        <div class="container">
+            <div class="box">
+                <h3>Furn</h3>
+                <ul class="social">
+                    <li>
+                        <a href="#" class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p class="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nulla rem, dignissimos iste aspernatur
+                </p>
+            </div>
+            <div class="box">
+                <ul class="links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#product">Products</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="line">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <div class="info">Morocco, Rabat, Hay Riyadh, Number 220</div>
+                </div>
+                <div class="line">
+                    <i class="far fa-clock fa-fw"></i>
+                    <div class="info">Business Hours: From 10:00 To 18:00</div>
+                </div>
+                <div class="line">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <div class="info">
+                        <span>+212 883456789</span>
+                        <span>+212 987695432</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box footer-gallery">
+                <img src="images/chaise2.jpg" alt="" />
+                <img src="images/chaise5.jpg" alt="" />
+                <img src="images/sofa2.jpg" alt="" />
+                <img src="images/lit.jpg" alt="" />
+                <img src="images/decor1.jpg" alt="" />
+                <img src="images/sofa.jpg" alt="" />
+            </div>
+        </div>
+        <p class="copyright">Made With &hearts; By Me</p>
+    </div>
+    <!-- End Footer -->
+    <script src="main.js"></script>
+</body>
+
+</html>
